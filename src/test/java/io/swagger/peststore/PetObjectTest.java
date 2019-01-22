@@ -1,7 +1,7 @@
 package io.swagger.peststore;
 
 import io.swagger.petstore.model.pet.PetModel;
-import io.swagger.petstore.controler.pet.PetCtrl;
+import io.swagger.petstore.controller.pet.PetCtrl;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;
 

@@ -2,7 +2,7 @@ package io.swagger.peststore;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.swagger.petstore.model.PetModel;
+import io.swagger.petstore.model.pet.PetModel;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;
 
@@ -17,7 +17,7 @@ public class TestPet {
         int id = Integer.parseInt(RandomStringUtils.randomNumeric(5));
         String testPetName = RandomStringUtils.randomAlphabetic(8) + id;
         final String API_KEY = "3030705530";
-        pet = new PetModel(id, null, testPetName, null, null, "avaible");
+        pet = new PetModel(id, null, testPetName, null, null, "AVAIBLE");
         RestAssured
                 .given()
                 .baseUri("https://petstore.swagger.io/")

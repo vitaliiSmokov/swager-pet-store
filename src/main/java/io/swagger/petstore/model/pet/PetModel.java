@@ -1,5 +1,5 @@
 
-package io.swagger.petstore.model;
+package io.swagger.petstore.model.pet;
 
 import java.util.List;
 import com.fasterxml.jackson.annotation.JsonInclude;
